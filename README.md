@@ -1,6 +1,7 @@
-# Baruch_IMG_Risk
-Risk Management and Portfolio Analysis for Baruch's Investment Management Group
+# Baruch's IMG - Risk Management and Portfolio Analysis
+Below are detailed mathemathcial derivations, to be used in the implementation of scripts and code. Provided documentaiton will serve as both a walkthrough and explanation of concepts to be used in the program. 
 
+## Minimum Variance Portfolio (MVP)
 The weights for minimum variance portfolio is determined by the solution to the constrained optimization problem 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\min_{w}&space;w^{T}&space;\Sigma&space;w" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\min_{w}&space;w^{T}&space;\Sigma&space;w" title="\min_{w} w^{T} \Sigma w" /></a>
