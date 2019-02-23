@@ -10,7 +10,7 @@ By applying the method of Lagrange multiplier, we obtain the solution as:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=w_{mvp}&space;=&space;\frac{\Sigma^{-1}&space;u}{u'&space;\Sigma^{-1}&space;u}." target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{mvp}&space;=&space;\frac{\Sigma^{-1}&space;u}{u'&space;\Sigma^{-1}&space;u}." title="w_{mvp} = \frac{\Sigma^{-1} u}{u' \Sigma^{-1} u}." /></a>
 
-The expected return $\ell_{mvp}$ and the variance $\sigma_{mvp}^2$ of the minimum variance portfolio are given by 
+The expected return <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{mvp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_{mvp}" title="\ell_{mvp}" /></a> and the variance <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_{mvp}^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma_{mvp}^2" title="\sigma_{mvp}^2" /></a> of the minimum variance portfolio are given by 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{mvp}&space;=&space;w_{mvp}'&space;\,&space;\ell&space;=&space;\frac{u'&space;\Sigma^{-1}\ell}{u^{T}&space;\Sigma^{-1}u}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_{mvp}&space;=&space;w_{mvp}'&space;\,&space;\ell&space;=&space;\frac{u'&space;\Sigma^{-1}\ell}{u^{T}&space;\Sigma^{-1}u}" title="\ell_{mvp} = w_{mvp}' \, \ell = \frac{u' \Sigma^{-1}\ell}{u^{T} \Sigma^{-1}u}" /></a>
 
