@@ -2,16 +2,22 @@
 Below are detailed mathemathcial derivations, to be used in the implementation of scripts and code. Provided documentaiton will serve as both a walkthrough and explanation of concepts to be used in the program. 
 
 ## Software Overview & General Maintenance 
+Description
 
 ## Risk Managment Models
+Description
 
-### Beta (<a href="https://www.codecogs.com/eqnedit.php?latex=\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta" title="\beta" /></a>)
+### Beta <a href="https://www.codecogs.com/eqnedit.php?latex=\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta" title="\beta" /></a>
+Description 
 
 ### Value-at-Risk (VaR)
+Description
 
 ### Conditional Value-at-Risk (CVaR)
+Description
 
 ## Optimization Models
+Description
 
 ### Minimum Variance Portfolio (MVP)
 The weights for minimum variance portfolio is determined by the solution to the constrained optimization problem 
@@ -29,3 +35,4 @@ The expected return <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{mv
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_{mvp}^2&space;=&space;w_{mvp}'&space;\,&space;\Sigma&space;\,&space;w_{mvp}&space;=&space;\frac1{u^{T}&space;\Sigma^{-1}u}." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma_{mvp}^2&space;=&space;w_{mvp}'&space;\,&space;\Sigma&space;\,&space;w_{mvp}&space;=&space;\frac1{u^{T}&space;\Sigma^{-1}u}." title="\sigma_{mvp}^2 = w_{mvp}' \, \Sigma \, w_{mvp} = \frac1{u^{T} \Sigma^{-1}u}." /></a>
 
 ### Market Portfolio (MP)
+Description
