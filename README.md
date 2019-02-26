@@ -8,7 +8,13 @@ Description
 Description
 
 ### Beta <a href="https://www.codecogs.com/eqnedit.php?latex=\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta" title="\beta" /></a>
-Description 
+Let <a href="https://www.codecogs.com/eqnedit.php?latex=r" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r" title="r" /></a> be the (random) return of a portfolio and <a href="https://www.codecogs.com/eqnedit.php?latex=r_M" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_M" title="r_M" /></a> the return of the market portfolio at investment horizon. The portfolio's <a href="https://www.codecogs.com/eqnedit.php?latex=\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta" title="\beta" /></a> is defined by the ratio 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\beta&space;:=&space;\frac{cov(r,&space;r_M)}{\sigma_M^2}&space;=&space;\rho&space;\frac{\sigma}{\sigma_M}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta&space;:=&space;\frac{cov(r,&space;r_M)}{\sigma_M^2}&space;=&space;\rho&space;\frac{\sigma}{\sigma_M}" title="\beta := \frac{cov(r, r_M)}{\sigma_M^2} = \rho \frac{\sigma}{\sigma_M}" /></a>
+
+where <a href="https://www.codecogs.com/eqnedit.php?latex=\rho" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\rho" title="\rho" /></a> is the correlation coefficient between <a href="https://www.codecogs.com/eqnedit.php?latex=r" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r" title="r" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=r_M" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_M" title="r_M" /></a>. 
+
+In particular, if <a href="https://www.codecogs.com/eqnedit.php?latex=r_n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_n" title="r_n" /></a> is the linear return of the risky asset <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n" title="n" /></a>, then <a href="https://www.codecogs.com/eqnedit.php?latex=\beta_n&space;:=&space;\frac{cov(r_n,&space;r_M)}{\sigma_M^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta_n&space;:=&space;\frac{cov(r_n,&space;r_M)}{\sigma_M^2}" title="\beta_n := \frac{cov(r_n, r_M)}{\sigma_M^2}" /></a> is the beta of risky asset <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n" title="n" /></a>.
 
 ### Value-at-Risk (VaR)
 Description
