@@ -7,7 +7,7 @@ Description
 ## Risk Managment Models
 Description
 
-### Beta <a href="https://www.codecogs.com/eqnedit.php?latex=\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta" title="\beta" /></a>
+### Beta 
 Let <a href="https://www.codecogs.com/eqnedit.php?latex=r" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r" title="r" /></a> be the (random) return of a portfolio and <a href="https://www.codecogs.com/eqnedit.php?latex=r_M" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_M" title="r_M" /></a> the return of the market portfolio at investment horizon. The portfolio's <a href="https://www.codecogs.com/eqnedit.php?latex=\beta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta" title="\beta" /></a> is defined by the ratio 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\beta&space;:=&space;\frac{cov(r,&space;r_M)}{\sigma_M^2}&space;=&space;\rho&space;\frac{\sigma}{\sigma_M}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\beta&space;:=&space;\frac{cov(r,&space;r_M)}{\sigma_M^2}&space;=&space;\rho&space;\frac{\sigma}{\sigma_M}" title="\beta := \frac{cov(r, r_M)}{\sigma_M^2} = \rho \frac{\sigma}{\sigma_M}" /></a>
