@@ -10,5 +10,5 @@ To better manage our risk and guide our portfolio managment process, we have dev
 ### Contribution 
 
 ### Credits & Acknowledgments 
-Rajesh R. (https://github.com/Raj9898)
-Karol R. (https://github.com/GrandePapiCarlito)
+Rajesh R. (https://github.com/Raj9898) <br />
+Karol R. (https://github.com/GrandePapiCarlito) <br />
