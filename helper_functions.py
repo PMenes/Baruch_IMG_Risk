@@ -5,8 +5,13 @@ LIBRARIES AND EXTERNAL PACKAGES
 """
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.sectorperformance import SectorPerformances
-import time as t
+from oauth2client.service_account import ServiceAccountCredentials
+from pprint import pprint
 
+import time as t
+import json
+
+import gspread
 import numpy as np
 import pandas as pd
 
@@ -62,8 +67,27 @@ class PHelper:
 
 class GHelper:
 
-    def __init__(self, auth):
+    def __init__(self, auth: str):
         self.auth_file = auth
+
+    def google_api(self, wb_name: str):
+        # use creds to create a client to interact with the Google Drive API
+        scope = ['https://spreadsheets.google.com/feeds']
+        creds = ServiceAccountCredentials.from_json_keyfile_name(self.auth_file,
+                                                                 scope)
+        client = gspread.authorize(creds)
+
+        sheet = client.open(wb_name).sheet2
+
+        result = sheet.get_all_records()
+        return result
+
+    @property
+    def auth_info(self):
+        with open(self.auth_file) as f:
+            data = json.load(f)
+            pprint(data)
+        return None
 
 
 def log_returns(price_df: pd.DataFrame):
