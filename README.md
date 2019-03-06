@@ -3,11 +3,11 @@ The Investment Management Group began at Baruch College in the summer of 2010 as
 
 To better manage our risk and guide our portfolio managment process, we have devised tools to better analyze our positions and create more sustainable investing
 
-###Instalation
+### Instalation
 
-###Usage
+### Usage
 
-###Contribution 
+### Contribution 
 
-###Credits & Acknowledgments 
+### Credits & Acknowledgments 
 
