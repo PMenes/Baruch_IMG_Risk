@@ -8,6 +8,7 @@ To better manage our risk and guide our portfolio managment process, we have dev
 ### Usage
 
 ### Contribution 
+Contributions and additions wil be handled by the PM team for Baruch IMG
 
 ### Credits & Acknowledgments 
 Rajesh R. (https://github.com/Raj9898) <br />
