@@ -13,3 +13,4 @@ Contributions and additions wil be handled by the PM team for Baruch IMG
 ### Credits & Acknowledgments 
 Rajesh R. (https://github.com/Raj9898) <br />
 Karol R. (https://github.com/GrandePapiCarlito) <br />
+Paul M. ()
