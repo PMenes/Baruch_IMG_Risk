@@ -19,7 +19,7 @@ __email__ = "rob@spot.colorado.edu"
 __status__ = "Production"
 
 
-def mbp(cov: np.matrix, mu: np.array):
+def mvp(cov: np.matrix, mu: np.array):
     """
     Minimum variance portfolio Given target return, determine the weights of the portfolio with the smallest variance
     :param cov: provided covariance matrix for the underlying securities (np.matrix object)
@@ -31,8 +31,9 @@ def mbp(cov: np.matrix, mu: np.array):
 
     weights = (inv.dot(base)) / (base.dot(inv).dot(base))
     exp_return = (mu.dot(inv).dot(base)) / (base.dot(inv).dot(base))
+    port_std = 1/(base.dot(inv).dot(base))
 
-    return weights, exp_return
+    return weights, exp_return, port_std
 
 
 def mpo(cov: np.matrix, mu: np.array, risk_free: float):
