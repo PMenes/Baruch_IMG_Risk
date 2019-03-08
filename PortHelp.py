@@ -145,3 +145,15 @@ def volatility(price_df: pd.DataFrame, rolling_window: int = 10):
 
     big_df = pd.DataFrame.from_dict(data=big_dict)  # dataframe index by data column all ticker symbols
     return big_df
+
+
+def sharpe():
+    return 1
+
+
+def sortino():
+    return 1
+
+
+def treynor():
+    return 1
